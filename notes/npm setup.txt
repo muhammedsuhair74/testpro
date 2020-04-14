@@ -1,0 +1,15 @@
+sudo npm install n -g
+sudo n 0.12.2
+
+or
+
+sudo npm install -g n 
+sudo n latest
+
+or
+
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n latest
+
+These work well. But for UX term terminal node -v did not show latest version so I have closed and reopened new terminal. I found v10.1.0, output of node-v after installation by sudo n latest

@@ -1,26 +1,14 @@
-class player
+var css=document.querySelector("h3");
+var color1=document.querySelector(".color1");
+var color2=document.querySelector(".color2");
+var back=document.getElementById("gradient");
+var text3=document.querySelector(".abc");
+
+function setgradient()
 {
-	constructor(name,age)
-	{
-		this.name=name;
-		this.age=age;
-	}
-	introduce()
-	{
-		console.log('hi i am '+ this.name);
-	}
+	back.style.background="linear-gradient(to right," + color1.value + ", " +color2.value + " )";	
+	css.textContent=back.style.background+";";
 }
-class newplayer extends player{
-	constructor(name,age)
-	{
-		super(name,age)
-	
-	}
-	introduce()
-	{
-		console.log("hi my name is "+ this.name+" and of age "+this.age);
-	}
-}
-const a=new player("suahir",23);
-const b=new newplayer();
-.introduce();
+color1.addEventListener("input",setgradient);
+color2.addEventListener("input",setgradient);
+text3.style.backgroundColor="green";
