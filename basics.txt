@@ -1,0 +1,5 @@
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/color --->input type color
+https://www.w3schools.com/css/css3_gradients.asp --->css linear gradient
+ --->to access css throuh js
+1)https://www.kirupa.com/html5/setting_css_styles_using_javascript.htm
+2)https://zellwk.com/blog/css-values-in-js/
