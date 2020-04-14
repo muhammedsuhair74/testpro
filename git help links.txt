@@ -1,0 +1,4 @@
+https://gist.github.com/justintv/168835 --->github setuping for multi coders
+https://www.quora.com/What-is-bash_profile-and-what-is-its-use --- bash profile
+https://github.com/zero-to-mastery --> projects to train
+https://github.com/zero-to-mastery/start-here-guidelines --->githelp

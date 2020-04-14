@@ -1,22 +1,3 @@
-let a=[
-{
-	name:'suahir',
-	class:12
-},
-{
-	name:'sahir',
-	class:10
-},
-{
-	name:'sahal',
-	class:5
+h1{
+	color: red;
 }
-];
-let newarray=[]
-const maparr=a.map(obj => {
-	let{username}=obj;
-	obj.name=name+"?";
-	newarray.push(obj);
-
-	return username;
-	})
